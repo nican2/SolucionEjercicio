@@ -17,6 +17,14 @@ Considera los conjuntos de datos **mammals** del paquete `MASS` y **Animals2** d
 
 + Mira la las características de ambos conjuntos usando la ayuda.
 
+```{r}
+library(MASS)
+library(robustbase)
+data("mammals")
+data("Animals2")
+```
+
+
 + Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
 + Muestra los nombres de las filas y las columnas (rownames, colnames)
